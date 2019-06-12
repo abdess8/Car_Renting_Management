@@ -1,0 +1,59 @@
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\bin\Debug\House_of_cars.exe
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\bin\Debug\House_of_cars.pdb
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.adminpage_managers_add.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.adminpage_managers_delete.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.adminpage_managers_edit.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.adminpage_managers_list.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.adminpage_reservation_list.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.Properties.Resources.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.csproj.GenerateResource.Cache
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.exe
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.pdb
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_home.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_page_bills.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_page_bills_newbill.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_page_cars.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_page_client_delete.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_page_client_edit.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.pwd_rec.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_page_client_add.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_page_cars_addcar.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.newaccount.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.login.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.csprojResolveAssemblyReference.cache
+C:\Users\User\source\repos\House_of_cars\House_of_cars\bin\Debug\House_of_cars.exe
+C:\Users\User\source\repos\House_of_cars\House_of_cars\bin\Debug\House_of_cars.pdb
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.csprojAssemblyReference.cache
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.adminpage_managers_add.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.adminpage_managers_delete.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.adminpage_managers_edit.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.adminpage_managers_list.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.adminpage_reservation_list.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.login.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_home.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_page_bills.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_page_bills_newbill.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_page_cars.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_page_cars_addcar.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_page_clients.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_page_client_add.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_page_client_delete.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_page_client_edit.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_page_reservation.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.newaccount.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.pwd_rec.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.Properties.Resources.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.csproj.GenerateResource.cache
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.exe
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.pdb
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.PL.Adminpage.resources
+C:\Users\User\source\repos\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.PL.manager_page_cars_editcar.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.PL.adminpage.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.PL.manager_page_cars_editcar.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_page_client.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.PL.manager_page_reservation.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.manager_page_reservation_add.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.PL.manager_page_reservation_edit.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.PL.Customer_bills_list.resources
+C:\Users\bravehk\Documents\Visual Studio 2010\Projects\House_of_cars\House_of_cars\obj\x86\Debug\House_of_cars.PL.Reservation_list.resources

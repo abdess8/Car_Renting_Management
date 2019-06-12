@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A06C8DB6-E433-4856-985A-5033052098B9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>House_of_cars</RootNamespace>
+    <AssemblyName>House_of_cars</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\CLS ADD_M.cs" />
+    <Compile Include="BL\CLS_ADD_CLIENT.cs" />
+    <Compile Include="BL\Cls_bills.cs" />
+    <Compile Include="BL\CLS_CARS.cs" />
+    <Compile Include="BL\CLS_LOGIN.cs" />
+    <Compile Include="BL\Cls_RESERVATION.cs" />
+    <Compile Include="DAL\Data_access_layer.cs" />
+    <Compile Include="PL\adminpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\adminpage.Designer.cs">
+      <DependentUpon>adminpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\adminpage_managers_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\adminpage_managers_add.designer.cs">
+      <DependentUpon>adminpage_managers_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\adminpage_managers_delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\adminpage_managers_delete.designer.cs">
+      <DependentUpon>adminpage_managers_delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\adminpage_managers_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\adminpage_managers_edit.designer.cs">
+      <DependentUpon>adminpage_managers_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\adminpage_managers_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\adminpage_managers_list.designer.cs">
+      <DependentUpon>adminpage_managers_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\adminpage_reservation_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\adminpage_reservation_list.designer.cs">
+      <DependentUpon>adminpage_reservation_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Billing_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Billing_List.Designer.cs">
+      <DependentUpon>Billing_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Customer_bills_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Customer_bills_list.Designer.cs">
+      <DependentUpon>Customer_bills_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\manager_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\manager_page.Designer.cs">
+      <DependentUpon>manager_page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\manager_page_bills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\manager_page_bills.Designer.cs">
+      <DependentUpon>manager_page_bills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\manager_page_bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\manager_page_bill.Designer.cs">
+      <DependentUpon>manager_page_bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\manager_page_bills_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\manager_page_bills_edit.Designer.cs">
+      <DependentUpon>manager_page_bills_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\manager_page_bills_newbill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\manager_page_bills_newbill.Designer.cs">
+      <DependentUpon>manager_page_bills_newbill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\manager_page_cars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\manager_page_cars.Designer.cs">
+      <DependentUpon>manager_page_cars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\manager_page_cars_addcar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\manager_page_cars_addcar.Designer.cs">
+      <DependentUpon>manager_page_cars_addcar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\manager_page_cars_editcar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\manager_page_cars_editcar.Designer.cs">
+      <DependentUpon>manager_page_cars_editcar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\manager_page_client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\manager_page_client.Designer.cs">
+      <DependentUpon>manager_page_client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\manager_page_client_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\manager_page_client_add.Designer.cs">
+      <DependentUpon>manager_page_client_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\manager_page_client_delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\manager_page_client_delete.Designer.cs">
+      <DependentUpon>manager_page_client_delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\manager_page_client_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\manager_page_client_edit.Designer.cs">
+      <DependentUpon>manager_page_client_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\manager_page_reservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\manager_page_reservation.Designer.cs">
+      <DependentUpon>manager_page_reservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\manager_page_reservationadd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\manager_page_reservationadd.Designer.cs">
+      <DependentUpon>manager_page_reservationadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\manager_page_reservation_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\manager_page_reservation_edit.Designer.cs">
+      <DependentUpon>manager_page_reservation_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\newaccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\newaccount.Designer.cs">
+      <DependentUpon>newaccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\pwd_rec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\pwd_rec.Designer.cs">
+      <DependentUpon>pwd_rec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\REPORT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\REPORT.Designer.cs">
+      <DependentUpon>REPORT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Reservation_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Reservation_list.Designer.cs">
+      <DependentUpon>Reservation_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Resources\Cls_RESERVATION.cs" />
+    <EmbeddedResource Include="PL\adminpage.resx">
+      <DependentUpon>adminpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\adminpage_managers_add.resx">
+      <DependentUpon>adminpage_managers_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\adminpage_managers_delete.resx">
+      <DependentUpon>adminpage_managers_delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\adminpage_managers_edit.resx">
+      <DependentUpon>adminpage_managers_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\adminpage_managers_list.resx">
+      <DependentUpon>adminpage_managers_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\adminpage_reservation_list.resx">
+      <DependentUpon>adminpage_reservation_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Billing_List.resx">
+      <DependentUpon>Billing_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Customer_bills_list.resx">
+      <DependentUpon>Customer_bills_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\manager_page.resx">
+      <DependentUpon>manager_page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\manager_page_bills.resx">
+      <DependentUpon>manager_page_bills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\manager_page_bill.resx">
+      <DependentUpon>manager_page_bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\manager_page_bills_edit.resx">
+      <DependentUpon>manager_page_bills_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\manager_page_bills_newbill.resx">
+      <DependentUpon>manager_page_bills_newbill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\manager_page_cars.resx">
+      <DependentUpon>manager_page_cars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\manager_page_cars_addcar.resx">
+      <DependentUpon>manager_page_cars_addcar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\manager_page_cars_editcar.resx">
+      <DependentUpon>manager_page_cars_editcar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\manager_page_client.resx">
+      <DependentUpon>manager_page_client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\manager_page_client_add.resx">
+      <DependentUpon>manager_page_client_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\manager_page_client_delete.resx">
+      <DependentUpon>manager_page_client_delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\manager_page_client_edit.resx">
+      <DependentUpon>manager_page_client_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\manager_page_reservation.resx">
+      <DependentUpon>manager_page_reservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\manager_page_reservationadd.resx">
+      <DependentUpon>manager_page_reservationadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\manager_page_reservation_edit.resx">
+      <DependentUpon>manager_page_reservation_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\newaccount.resx">
+      <DependentUpon>newaccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\pwd_rec.resx">
+      <DependentUpon>pwd_rec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\REPORT.resx">
+      <DependentUpon>REPORT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Report1.rdlc" />
+    <EmbeddedResource Include="PL\Reservation_list.resx">
+      <DependentUpon>Reservation_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="REPORT\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
